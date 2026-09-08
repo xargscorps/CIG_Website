@@ -46,14 +46,14 @@ CloudInfra-Global-Website-Source/
 ## Start locally
 
 ```bash
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 ## Create the production version
 
 ```bash
-npm run build
+bun run build
 ```
 
 The deployable website will be created inside the `dist` folder.
